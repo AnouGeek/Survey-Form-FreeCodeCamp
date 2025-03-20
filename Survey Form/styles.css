@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(77, 77, 206);
+    font-size: 22px;
+}
+
+main {
+    max-width: 768px;
+    margin: 20px auto;
+    color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+header p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#survey-form {
+    /* border: 5px solid red; */
+    background-color: blueviolet;
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+    border-radius: 5px;
+}
